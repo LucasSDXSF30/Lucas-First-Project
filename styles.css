@@ -1,0 +1,58 @@
+<!-- ======================= styles.css ======================= -->
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+nav a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.grid {
+  display: flex;
+}
+
+.sidebar {
+  width: 25%;
+  background: #f2f2f2;
+  padding: 10px;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+}
+
+.long-article {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: #222;
+  color: white;
+  padding: 20px;
+}
+
+.footer-box {
+  width: 40%;
+}
+
+.filters {
+  padding: 10px;
+}
+
+.player, .team {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
